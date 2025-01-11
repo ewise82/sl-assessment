@@ -27,7 +27,7 @@ const ProductPage: React.FC = () => {
         <h1 className="product-title">{product.title}</h1>
         <h2 className="product-subtitle">{product.subtitle}</h2>
         <div className="tags">
-          {product.tags.map((tag) => (
+          {product.tags.map((tag: string) => (
             <span key={tag} className="tag">
               {tag}
             </span>
