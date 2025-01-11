@@ -1,0 +1,22 @@
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #6f6e6e;
+  }
+  
+  .sales-table th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    border-bottom: 1px solid #ececec;
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .sales-table td {
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.9rem;
+    color: #9f9c9c;
+  }
+  
+  
